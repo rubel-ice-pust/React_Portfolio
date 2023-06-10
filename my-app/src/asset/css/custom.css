@@ -258,3 +258,7 @@
     border: 1px solid #0073E6;
     border-radius: 50%;
 }
+.footerSection{
+    box-shadow: 0 0 4px rgba(0,115,230,0.2);
+    margin-top: 5rem;
+}
