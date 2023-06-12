@@ -10,6 +10,7 @@ export default class ClientReview extends Component {
   render() {
 
     var settings = {
+        autoplay:true,
         autoplaySpeed:2000,
         dots: true,
         infinite: true,
