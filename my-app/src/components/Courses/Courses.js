@@ -11,7 +11,7 @@ export default class Courses extends Component {
                 <Container className='text-center'>
                  <h1 className='serviceMainTitle'>Courses</h1>
                     <Row>
-                        <Col lg={6} md={12} sm={12}>
+                        <Col lg={6} md={12} sm={12} className='p-2'>
                           <Row>
                             <Col lg={6} md={6} sm={12} >
                             <img className='courseImg' src={CoursesImg} />
@@ -24,7 +24,7 @@ export default class Courses extends Component {
                           </Row>
                         
                         </Col>
-                        <Col lg={6} md={12} sm={12}>
+                        <Col lg={6} md={12} sm={12} className='p-2'>
                         <Row>
                             <Col lg={6} md={6} sm={12} >
                             <img className='courseImg' src={CoursesImg} />
@@ -38,7 +38,7 @@ export default class Courses extends Component {
                         </Col>
                          
                          
-                        <Col lg={6} md={12} sm={12}>
+                        <Col lg={6} md={12} sm={12} className='p-2'>
                         <Row>
                             <Col lg={6} md={6} sm={12} >
                             <img className='courseImg' src={CoursesImg} />
@@ -50,7 +50,7 @@ export default class Courses extends Component {
                             </Col>
                           </Row>
                         </Col>
-                        <Col lg={6} md={12} sm={12}>
+                        <Col lg={6} md={12} sm={12} className='p-2'>
                         <Row>
                             <Col lg={6} md={6} sm={12} >
                             <img className='courseImg' src={CoursesImg} />

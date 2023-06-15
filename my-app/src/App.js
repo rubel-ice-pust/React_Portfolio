@@ -1,29 +1,28 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import TopBanner from './components/TopBanner/TopBanner';
-import Services from './components/Services/Services';
+// import logo from './logo.svg';
+import HomePage from './pages/HomePage';
 import TopNavigation from './components/TopNavigation/TopNavigation';
-import Analysis from './components/Analysis/Analysis';
-import Summary from './components/Summary/Summary';
-import RecentProjects from './components/RecentProjects/RecentProjects';
-import Courses from './components/Courses/Courses';
-import Video from './components/Video/Video';
-import ClientReview from './components/ClientReview/ClientReview';
-import Footer from './components/Footer/Footer';
+import PageTop from './components/PageTop/PageTop';
+import AboutDescription from './components/AboutDescription/AboutDescription';
+import AboutPage from './pages/AboutPage';
+import CoursesPage from './pages/CoursesPage';
+import Portfolio from './pages/Portfolio';
+import ContactSection from './components/ContactSection/ContactSection';
+
+
 
 function App() {
   return (
     <div>
-      <TopNavigation/>
-      <TopBanner/>
-      <Services/>
-      <Analysis/>
-      <Summary/>
-      <RecentProjects/>
-      <Courses />
-      <Video/>
-      <ClientReview/>
-      <Footer/>
+      {/* <TopNavigation />
+      <PageTop pageTitle="About Me"/>
+      <AboutDescription/>
+      <HomePage /> */}
+      {/* <AboutPage/> */}
+      {/* <CoursesPage /> */}
+      {/* <Portfolio/> */}
+      <ContactSection/>
     </div>
   );
 }

@@ -14,7 +14,7 @@ export default class Analysis extends Component {
         {Technology:'Sql', Projects:90},
         {Technology:'Bootstrap', Projects:95},
         {Technology:'Jquery', Projects:60},
-        {Technology:'Reat', Projects:90},
+        {Technology:'React', Projects:90},
         {Technology:'PHP', Projects:100},
         {Technology:'Angular', Projects:65}
 

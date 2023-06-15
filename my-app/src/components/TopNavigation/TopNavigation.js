@@ -11,6 +11,7 @@ export default class TopNavigation extends Component {
         super();
         this.state={
             navBarTitle:"navTitle",
+            navVariant:"dark",
             navBarLogo:[whiteLogo],
             navBarBack:"navBackground",
             navBarItem:"navItem"
@@ -19,11 +20,11 @@ export default class TopNavigation extends Component {
 
     onScroll=()=>{
         if(window.scrollY>100){
-            this.setState({navBarTitle:'navTitleScroll',navBarLogo:[blueLogo], navBarBack:'navBackgroundScroll',navBarItem:'navItemScroll'})
+            this.setState({navVariant:'light',navBarTitle:'navTitleScroll',navBarLogo:[blueLogo], navBarBack:'navBackgroundScroll',navBarItem:'navItemScroll'})
 
         }
         else if(window.scrollY<100){
-            this.setState({navBarTitle:'navTitle',navBarLogo:[whiteLogo],navBarBack:'navBackground',navBarItem:'navItem'})
+            this.setState({navVariant:'dark',navBarTitle:'navTitle',navBarLogo:[whiteLogo],navBarBack:'navBackground',navBarItem:'navItem'})
 
         }
     }
@@ -36,7 +37,7 @@ export default class TopNavigation extends Component {
     return (
       <Fragment>
 
-<Navbar className={this.state.navBarBack} fixed='top' collapseOnSelect expand="lg"  variant="dark">
+<Navbar variant={this.state.navVariant} className={this.state.navBarBack} fixed='top' collapseOnSelect expand="lg">
       <Container>
         <Navbar.Brand className={this.state.navBarTitle}><img src={this.state.navBarLogo}/> RUBEL HOSSAIN</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

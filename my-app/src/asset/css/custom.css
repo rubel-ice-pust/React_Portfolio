@@ -17,7 +17,7 @@
 }
 
 .topContent{
-    margin-top: 10rem;
+    margin-top: 12rem;
 }
 
 .topTitle{
@@ -112,13 +112,13 @@
     text-decoration: none !important;
     font-family: 'Montserreat',sans-serif;
     font-weight: 400;
-    color: #000000 !important;
+    color: #2B2B2B !important;
 
 }
 
 .des{
     font-weight: 400;
-    color: #000000;
+    color: #2B2B2B;
     font-family: 'Raleway',sans-serif;
     font-size: 14px;
 }
@@ -152,7 +152,7 @@
     font-weight: 6000;
  }
  .countTitle{
-    color: #000000;
+    color: #2B2B2B;
     font-family:'Raleway',sans-serif ;
     font-weight: 600;
     font-size: 22px;
@@ -165,7 +165,7 @@
  .cardSubTitle{
     font-weight: 400;
     font-size: 14px;
-    color: #000000;
+    color: #2B2B2B;
     font-family:'Montserreat',sans-serif;
 
 }
@@ -271,12 +271,12 @@
 }
 .socialLink:hover{
     text-decoration: none;
-    color: #000000;
+    color: #2B2B2B;
 
 
 }
 .footerLink{
-    color: #7F7E7E;
+    color: #2B2B2B;
     font-weight: 400;
     font-size: 14px;
     text-decoration: none;
@@ -299,5 +299,39 @@ color: #0073E6;
 }
 .copyRightLink:hover{
     text-decoration: none;
-    color: #000000;
+    color: #2B2B2B;
+}
+
+.topPageBanner{
+
+    background-image: url("../image/banner.jpg");
+    min-height: 280px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+ }
+ 
+ .topPageOverlay{
+     position:absolute;
+     min-height: 280px;
+     width: 100%;
+     background: rgba(0,0,0,0.6);
+ }
+ 
+ .topPageContent{
+     margin-top: 9rem;
+ }
+ .topPageTitle{
+    font-family: 'Raleway',sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 28px;
+
+}
+.form-control:focus{
+    border-radius: 2px !important;
+    border-color: #0073E6 !important;
+    box-shadow: 0 0 4px rgba(0,115,230,0.2) !important;
 }

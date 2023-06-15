@@ -18,9 +18,9 @@ export default class Footer extends Component {
             </Col>
             <Col lg={3} md={6} sm={12} className='p-5 text-justify'>
             <h1 className='serviceName'>Address</h1>
-            <p className='footerLink'>Bangabandhu Sheikh Mujibur Rahman Hall, PUST</p>
-            <p className='footerLink'> <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>rubel.pust06@gmail.com</p>
-            <p className='footerLink'> <FontAwesomeIcon icon={faPhone}></FontAwesomeIcon>01795662879</p>
+            <p className='serviceDescription'>Bangabandhu Sheikh Mujibur Rahman Hall, PUST</p>
+            <p className='serviceDescription'> <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>rubel.pust06@gmail.com</p>
+            <p className='serviceDescription'> <FontAwesomeIcon icon={faPhone}></FontAwesomeIcon>01795662879</p>
             </Col>
 
             <Col lg={3} md={6} sm={12} className='p-5 text-justify'>
