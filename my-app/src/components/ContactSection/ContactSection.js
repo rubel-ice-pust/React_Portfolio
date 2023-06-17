@@ -8,7 +8,7 @@ export default class ContactSection extends Component {
   render() {
     return (
       <Fragment>
-        <Container>
+        <Container className='mt-5'>
           <Row>
             <Col lg={6} md={6} sm={12}>
                 <h1 className='serviceName'>Quick Connect</h1>
@@ -33,8 +33,8 @@ export default class ContactSection extends Component {
             
             </Col>
             <Col lg={6} md={6} sm={12}>
-            <Col lg={3} md={6} sm={12} className='p-5 text-justify'>
-            <h1 className='serviceName'>Discuss Now</h1>
+            <Col lg={3} md={6} sm={12} className='pl-5 text-justify'>
+            <h1 className='serviceName '>Discuss Now</h1>
             <p className='serviceDescription'>Bangabandhu Sheikh Mujibur Rahman Hall, PUST</p>
             <p className='serviceDescription'> <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>rubel.pust06@gmail.com</p>
             <p className='serviceDescription'> <FontAwesomeIcon icon={faPhone}></FontAwesomeIcon>01795662879</p>

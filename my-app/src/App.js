@@ -9,6 +9,8 @@ import AboutPage from './pages/AboutPage';
 import CoursesPage from './pages/CoursesPage';
 import Portfolio from './pages/Portfolio';
 import ContactSection from './components/ContactSection/ContactSection';
+import ContactPage from './pages/ContactPage';
+import ServicePage from './pages/ServicePage';
 
 
 
@@ -22,7 +24,9 @@ function App() {
       {/* <AboutPage/> */}
       {/* <CoursesPage /> */}
       {/* <Portfolio/> */}
-      <ContactSection/>
+      {/* <ContactSection/> */}
+      {/* <ContactPage/> */}
+      <ServicePage/>
     </div>
   );
 }
