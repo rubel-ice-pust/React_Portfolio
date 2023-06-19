@@ -16,17 +16,16 @@ export default class HomePage extends Component {
   render() {
     return (
       <Fragment>
-
-      <TopNavigation/>
-      <TopBanner/>
-      <Services/>
-      <Analysis/>
-      <Summary/>
-      <RecentProjects/>
-      <Courses />
-      <Video/>
-      <ClientReview/>
-      <Footer/>
+          <TopNavigation title='Home'/>
+          <TopBanner/>
+          <Services/>
+          <Analysis/>
+          <Summary/>
+          <RecentProjects/>
+          <Courses />
+          <Video/>
+          <ClientReview/>
+          <Footer/>
       </Fragment>
     )
   }
