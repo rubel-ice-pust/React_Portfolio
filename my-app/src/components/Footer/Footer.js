@@ -26,16 +26,16 @@ export default class Footer extends Component {
 
             <Col lg={3} md={6} sm={12} className='p-5 text-justify'>
             <h1 className='serviceName'>Information</h1>
-            <a className='footerLink' href='#'>About me</a><br/>
+            <Link className='footerLink' to='/about'>About me</Link><br/>
             <a className='footerLink' href='#'>My Resume</a><br/>
-            <a className='footerLink' href='#'>Contact Me</a>
+            <Link className='footerLink' to='/contact'>Contact Me</Link>
             </Col>
 
             <Col lg={3} md={6} sm={12} className='p-5 text-justify'>
             <h1 className='serviceName'>Legal</h1>  
             <Link className='footerLink' to='/Refund'>Refund Policy</Link><br/>
             <Link className='footerLink' to='/Terms'>Terms And Condition</Link><br/>
-            <a className='footerLink' href='#'>Privacy Policy</a>         
+            <Link className='footerLink' to='/Privacy'>Privacy Policy</Link>         
             </Col>
           </Row>  
         </Container>

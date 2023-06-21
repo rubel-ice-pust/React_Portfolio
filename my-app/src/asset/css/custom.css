@@ -69,17 +69,25 @@
 }
 
 .navTitle{
+    text-decoration: none;
     font-family: 'Montserreat',sans-serif;
     color: #ffffff !important;
     font-weight: 700;
     font-size: 24px;
 }
+.navTitle:hover{
+    text-decoration: none;
+}
 
 .navTitleScroll{
+    text-decoration: none;
     font-family: 'Montserreat',sans-serif;
     color: #0073E6 !important;
     font-weight: 700;
     font-size: 24px;
+}
+.navTitleScroll:hover{
+    text-decoration: none;
 }
 
 .navBackground{
@@ -214,9 +222,10 @@
     font-family:'Raleway',sans-serif  ;
     font-size: 14px;
     font-weight: 400;
+    color: #2B2B2B !important;
 }
 .courseDetails{
-    color: #0073E6;
+    color: #2d67a1;
     text-decoration: none;
     font-family:'Raleway',sans-serif  ;
     font-size: 18px;
@@ -321,8 +330,30 @@ color: #0073E6;
  }
  
  .topPageContent{
-     margin-top: 9rem;
+     margin-top: 8rem;
  }
+ .topPageContentCourse{
+    margin-top: 6rem;
+}
+.courseFullTitle{
+    color: white;
+    font-family: 'Raleway';
+    font-size: 28px;
+    font-weight: 600;
+}
+.courseSubTitle{
+    color: white;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: 400;
+}
+.courseDes{
+    color: white;
+    font-family: 'Raleway';
+    font-size: 14px;
+    font-weight: 400;
+}
+
  .topPageTitle{
     font-family: 'Raleway',sans-serif;
     font-weight: 600;
@@ -334,4 +365,13 @@ color: #0073E6;
     border-radius: 2px !important;
     border-color: #0073E6 !important;
     box-shadow: 0 0 4px rgba(0,115,230,0.2) !important;
+}
+.link-style{
+    color: white !important;
+    text-decoration: none !important;
+}
+.link-style:hover{
+    color: white !important;
+    text-decoration: white !important;
+    
 }

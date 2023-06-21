@@ -8,6 +8,9 @@ import ContactPage from '../pages/ContactPage';
 import AboutPage from '../pages/AboutPage';
 import RefundPage from '../pages/RefundPage';
 import TermsPage from '../pages/TermsPage';
+import PrivacyPage from '../pages/PrivacyPage';
+import ProjectDetailsPage from '../pages/ProjectDetailsPage';
+import CourseDetailsPage from '../pages/CourseDetailsPage';
 
 export default class AppRoute extends Component {
   render() {
@@ -23,6 +26,11 @@ export default class AppRoute extends Component {
                     <Route  path="/about" Component={AboutPage}/>
                     <Route  path="/Refund" Component={RefundPage}/>
                     <Route  path="/Terms" Component={TermsPage}/>
+                    <Route  path="/Privacy" Component={PrivacyPage}/>
+                    <Route  path="/ProjectDetails" Component={ProjectDetailsPage}/>
+                    <Route  path="/CourseDetails" Component={CourseDetailsPage}/>
+
+
 
 
 

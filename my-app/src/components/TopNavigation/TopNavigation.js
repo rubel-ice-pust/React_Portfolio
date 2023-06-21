@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react'
-import { Container, Nav, Navbar} from 'react-bootstrap'
+import { Container, Nav, NavLink, Navbar} from 'react-bootstrap'
 import whiteLogo from '../../asset/image/navlogo.svg'
 import blueLogo from '../../asset/image/navlogoScroll.svg'
 import '../../asset/css/custom.css'
@@ -38,10 +38,10 @@ export default class TopNavigation extends Component {
   render() {
     return (
       <Fragment>
-          <title>{this.state.pageTitle}</title>
+        <title>{this.state.pageTitle}</title>
         <Navbar variant={this.state.navVariant} className={this.state.navBarBack} fixed='top' collapseOnSelect expand="lg">
        <Container>
-        <Navbar.Brand className={this.state.navBarTitle}><img src={this.state.navBarLogo}/> RUBEL HOSSAIN</Navbar.Brand>
+        <Navbar.Brand className='pl-0'><Link className={this.state.navBarTitle} to="/"><img src={this.state.navBarLogo}/>RUBEL HOSSAIN</Link> </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
