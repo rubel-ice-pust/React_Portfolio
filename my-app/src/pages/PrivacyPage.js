@@ -5,6 +5,9 @@ import Footer from '../components/Footer/Footer'
 import PrivacyDescription from '../components/PrivacyDescription/PrivacyDescription'
 
 export default class PrivacyPage extends Component {
+  componentDidMount(){
+    window.scroll(0,0)
+  }
   render() {
     return (
         <Fragment>

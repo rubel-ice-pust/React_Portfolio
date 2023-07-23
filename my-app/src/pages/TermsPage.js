@@ -5,6 +5,9 @@ import Footer from '../components/Footer/Footer'
 import TermsDescription from '../components/TermsDescription/TermsDescription'
 
 export default class TermsPage extends Component {
+  componentDidMount(){
+    window.scroll(0,0)
+  }
   render() {
     return (
         <Fragment>
