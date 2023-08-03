@@ -28,7 +28,7 @@ export default class Courses extends Component {
         const myList =this.state.myData;
         const myView= myList.map(myList=>{
 
-      return <Col lg={6} md={12} sm={12} className='p-2'>
+    return <Col lg={6} md={12} sm={12} className='p-2'>
       <Row>
         <Col lg={6} md={6} sm={12} >
         <img className='courseImg' src={myList.small_img} />
